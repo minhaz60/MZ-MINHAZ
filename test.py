@@ -393,19 +393,18 @@ logo = ("""
 \33[1;41m 88888b.d88888   888   88888b  888 888    888      d88P888      d88P
 \33[1;41m 888Y88888P888   888   888Y88b 888 8888888888     d88P 888     d88P
 \33[1;41m 888 Y888P 888   888   888 Y88b888 888    888    d88P  888    d88P
-\33[1;41m 888  Y8P  888   888   888  Y88888 888    888   d88P   888   d88P   
+\33[1;41m 888  Y8P  888   888   888  Y88888 888    888   d88P   888   d88P
 \33[1;41m 888   "   888   888   888   Y8888 888    888  d8888888888  d88P
-\33[1;41m 888       888 8888888 888    Y888 888    888 d88P     888 d8888888888
-\33[1;41m                                                                                                                                     \033[0;91m
+\33[1;41m 888       888 8888888 888    Y888 888    888 d88P     888 d8888888888 \033[0;91m
 
-\033[0;33m════════════════════════════════════════════════════════════════\033[0m
+\033[4;33m════════════════════════════════════════════════════════════════════════════════════\033[0m
 \x1b[1;92m   ➣TOOL NAME : { Facebook ID'Z Cloning Tool }   
 \x1b[1;92m   ➣AUTHOR    : MINHAZ       
 \x1b[1;92m   ➣WHATSAPP  : 01839000896 
 \x1b[1;92m   ➣FACEBOOK  : M　I　N　H　A　Z　ゾ
-\x1b[1;92m   ➣PAGE       : MOOD POST 
-\x1b[1;92m   ➣TELEGRAM  : [ ERROR ]       
-\033[0;36m════════════════════════════════════════════════════════════════\033[0m""")
+\x1b[1;92m   ➣PAGE      : MOOD POST 
+\x1b[1;92m   ➣TELEGRAM  : https://t.me/minhaz60     
+\033[4;33m════════════════════════════════════════════════════════════════════════════════════\033[0m""")
 
 class Main:
 	def __init__(self):
@@ -1310,13 +1309,13 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32m MINHAZ PAID TOOL You Need Get Approved First\033[1;37m\n")
+		print(" \33[1;41m MINHAZ PAID TOOL You Need Get Approved First\033[1;37m\n")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
 		print(" Copy And Send Key To Admin")
 		print ("")
-		print (" Your Key : "+ak+ahsan+key1)
+		print (" \33[1;41m Your Key : "+ak+ahsan+key1) \033[0m
 		print ("")
 		name = input(" Your Name : ")
 		print ("")
